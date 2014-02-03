@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FB51371ECFD4F89B36E0956 /* libPods-SGit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 906C8FB9E1D54C1CAF252522 /* libPods-SGit.a */; };
+		3621F54A1874FDBA007CA582 /* Commit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3621F5491874FDBA007CA582 /* Commit.m */; };
+		3621F5531875089B007CA582 /* SHCommitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3621F5521875089B007CA582 /* SHCommitsViewController.m */; };
+		3632898A189DA0460030685D /* SHStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36328989189DA0460030685D /* SHStatusViewController.m */; };
+		363328A618768F4F00749247 /* SHAddRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363328A518768F4F00749247 /* SHAddRemoteViewController.m */; };
+		364C1A0F186CF5D0001386FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364C1A0E186CF5D0001386FD /* Foundation.framework */; };
+		364C1A11186CF5D0001386FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364C1A10186CF5D0001386FD /* CoreGraphics.framework */; };
+		364C1A13186CF5D0001386FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364C1A12186CF5D0001386FD /* UIKit.framework */; };
+		364C1A19186CF5D0001386FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 364C1A17186CF5D0001386FD /* InfoPlist.strings */; };
+		364C1A1B186CF5D0001386FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 364C1A1A186CF5D0001386FD /* main.m */; };
+		364C1A1F186CF5D0001386FD /* SHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 364C1A1E186CF5D0001386FD /* SHAppDelegate.m */; };
+		364C1A22186CF5D0001386FD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364C1A20186CF5D0001386FD /* Main_iPhone.storyboard */; };
+		364C1A25186CF5D0001386FD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364C1A23186CF5D0001386FD /* Main_iPad.storyboard */; };
+		364C1A31186CF5D1001386FD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364C1A30186CF5D1001386FD /* XCTest.framework */; };
+		364C1A32186CF5D1001386FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364C1A0E186CF5D0001386FD /* Foundation.framework */; };
+		364C1A33186CF5D1001386FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364C1A12186CF5D0001386FD /* UIKit.framework */; };
+		364C1A3B186CF5D1001386FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 364C1A39186CF5D1001386FD /* InfoPlist.strings */; };
+		364C1A3D186CF5D1001386FD /* SGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364C1A3C186CF5D1001386FD /* SGitTests.m */; };
+		3659F168189E032C00638CAE /* SHPrivateKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659F167189E032C00638CAE /* SHPrivateKeyViewController.m */; };
+		3659F172189E1B0000638CAE /* SHEditKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659F171189E1B0000638CAE /* SHEditKeyViewController.m */; };
+		366601DD1888AD1300A755FC /* SHShowBranchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366601DC1888AD1300A755FC /* SHShowBranchViewController.m */; };
+		367066DD189F099D009D1807 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367066DC189F099D009D1807 /* Security.framework */; };
+		368785B1186D032F00128317 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 368785B0186D032F00128317 /* libz.dylib */; };
+		368785B3186D033D00128317 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 368785B2186D033D00128317 /* libiconv.dylib */; };
+		368785C3186D194900128317 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368785C2186D194900128317 /* Images.xcassets */; };
+		368785C7186D2AD600128317 /* SHCloneRepoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368785C6186D2AD600128317 /* SHCloneRepoViewController.m */; };
+		368785CA186D3F4500128317 /* SHRepoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368785C9186D3F4500128317 /* SHRepoListViewController.m */; };
+		368785DA186D4A1700128317 /* Sgit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 368785D8186D4A1700128317 /* Sgit.xcdatamodeld */; };
+		368785DE186D4B8F00128317 /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 368785DD186D4B8F00128317 /* Repo.m */; };
+		368785E1186D63FD00128317 /* SHRepoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 368785E0186D63FD00128317 /* SHRepoListCell.m */; };
+		36C445001877A6D000C559A1 /* SHCommitChangesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C444FF1877A6D000C559A1 /* SHCommitChangesViewController.m */; };
+		36F3C10D186E910700C98545 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3C10C186E910700C98545 /* CoreData.framework */; };
+		36F3C115186E912A00C98545 /* libObjectiveGit-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 368785AD186D02CC00128317 /* libObjectiveGit-iOS.a */; };
+		36F3C1321870EBC000C98545 /* SHRepoListLoadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F3C1311870EBC000C98545 /* SHRepoListLoadingCell.m */; };
+		36F3C16418721F1900C98545 /* SHRepoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F3C16318721F1900C98545 /* SHRepoDetailsViewController.m */; };
+		36F3C1711872443900C98545 /* SHFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F3C1701872443900C98545 /* SHFilesViewController.m */; };
+		36F3C17C18725B1B00C98545 /* SHViewFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F3C17B18725B1B00C98545 /* SHViewFileViewController.m */; };
+		36F3C17F1872656400C98545 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 36F3C17E1872656300C98545 /* assets */; };
+		36F3C1831872806300C98545 /* SHCodeGuesser.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F3C1821872806300C98545 /* SHCodeGuesser.m */; };
+		36F62083187548E900DFB884 /* SHRepoCommitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F62082187548E900DFB884 /* SHRepoCommitCell.m */; };
+		36F6208D18755A2B00DFB884 /* SHBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F6208C18755A2B00DFB884 /* SHBasic.m */; };
+		36F620931875633A00DFB884 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F620921875633A00DFB884 /* ImageIO.framework */; };
+		36F620B21875660D00DFB884 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F620961875660D00DFB884 /* MKAnnotationView+WebCache.m */; };
+		36F620B31875660D00DFB884 /* NSData+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F620981875660D00DFB884 /* NSData+GIF.m */; };
+		36F620B41875660D00DFB884 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F6209A1875660D00DFB884 /* SDImageCache.m */; };
+		36F620B51875660D00DFB884 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F6209C1875660D00DFB884 /* SDWebImageCompat.m */; };
+		36F620B61875660D00DFB884 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F6209E1875660D00DFB884 /* SDWebImageDecoder.m */; };
+		36F620B71875660D00DFB884 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F620A01875660D00DFB884 /* SDWebImageDownloader.m */; };
+		36F620B81875660D00DFB884 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F620A21875660D00DFB884 /* SDWebImageDownloaderOperation.m */; };
+		36F620B91875660D00DFB884 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F620A41875660D00DFB884 /* SDWebImageManager.m */; };
+		36F620BA1875660D00DFB884 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F620A71875660D00DFB884 /* SDWebImagePrefetcher.m */; };
+		36F620BB1875660D00DFB884 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F620A91875660D00DFB884 /* UIButton+WebCache.m */; };
+		36F620BC1875660D00DFB884 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F620AB1875660D00DFB884 /* UIImage+GIF.m */; };
+		36F620BD1875660D00DFB884 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F620AD1875660D00DFB884 /* UIImage+MultiFormat.m */; };
+		36F620BE1875660D00DFB884 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F620AF1875660D00DFB884 /* UIImage+WebP.m */; };
+		36F620BF1875660D00DFB884 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F620B11875660D00DFB884 /* UIImageView+WebCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		364C1A34186CF5D1001386FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 364C1A03186CF5D0001386FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364C1A0A186CF5D0001386FD;
+			remoteInfo = SGit;
+		};
+		368785A6186D02CC00128317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36878599186D02CA00128317 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = ObjectiveGit;
+		};
+		368785A8186D02CC00128317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36878599186D02CA00128317 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F05A6B16011E5400B7AD1D;
+			remoteInfo = ObjectiveGitTests;
+		};
+		368785AA186D02CC00128317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36878599186D02CA00128317 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04DB4645133AB57600D9C624;
+			remoteInfo = "ObjectiveGit-iOS";
+		};
+		368785AC186D02CC00128317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36878599186D02CA00128317 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6CBB4A417FFD50500404926;
+			remoteInfo = "ObjectiveGit-iOS-arm64";
+		};
+		368785AE186D031500128317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36878599186D02CA00128317 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F6CBB45317FFD50500404926;
+			remoteInfo = "ObjectiveGit-iOS-arm64";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		153E52A11E71468FA0781EB4 /* Pods-SGit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGit.xcconfig"; path = "Pods/Pods-SGit.xcconfig"; sourceTree = "<group>"; };
+		3621F5481874FDBA007CA582 /* Commit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Commit.h; path = Model/Commit.h; sourceTree = "<group>"; };
+		3621F5491874FDBA007CA582 /* Commit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Commit.m; path = Model/Commit.m; sourceTree = "<group>"; };
+		3621F5511875089B007CA582 /* SHCommitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHCommitsViewController.h; path = ViewControllers/SHCommitsViewController.h; sourceTree = "<group>"; };
+		3621F5521875089B007CA582 /* SHCommitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHCommitsViewController.m; path = ViewControllers/SHCommitsViewController.m; sourceTree = "<group>"; };
+		36328988189DA0460030685D /* SHStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHStatusViewController.h; path = ViewControllers/SHStatusViewController.h; sourceTree = "<group>"; };
+		36328989189DA0460030685D /* SHStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHStatusViewController.m; path = ViewControllers/SHStatusViewController.m; sourceTree = "<group>"; };
+		363328A418768F4F00749247 /* SHAddRemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHAddRemoteViewController.h; path = ViewControllers/SHAddRemoteViewController.h; sourceTree = "<group>"; };
+		363328A518768F4F00749247 /* SHAddRemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHAddRemoteViewController.m; path = ViewControllers/SHAddRemoteViewController.m; sourceTree = "<group>"; };
+		364C1A0B186CF5D0001386FD /* SGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		364C1A0E186CF5D0001386FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		364C1A10186CF5D0001386FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		364C1A12186CF5D0001386FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		364C1A16186CF5D0001386FD /* SGit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SGit-Info.plist"; sourceTree = "<group>"; };
+		364C1A18186CF5D0001386FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		364C1A1A186CF5D0001386FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		364C1A1C186CF5D0001386FD /* SGit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SGit-Prefix.pch"; sourceTree = "<group>"; };
+		364C1A1D186CF5D0001386FD /* SHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAppDelegate.h; sourceTree = "<group>"; };
+		364C1A1E186CF5D0001386FD /* SHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAppDelegate.m; sourceTree = "<group>"; };
+		364C1A21186CF5D0001386FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		364C1A24186CF5D0001386FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		364C1A2F186CF5D1001386FD /* SGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364C1A30186CF5D1001386FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		364C1A38186CF5D1001386FD /* SGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SGitTests-Info.plist"; sourceTree = "<group>"; };
+		364C1A3A186CF5D1001386FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		364C1A3C186CF5D1001386FD /* SGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGitTests.m; sourceTree = "<group>"; };
+		3659F166189E032C00638CAE /* SHPrivateKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHPrivateKeyViewController.h; path = ViewControllers/SHPrivateKeyViewController.h; sourceTree = "<group>"; };
+		3659F167189E032C00638CAE /* SHPrivateKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHPrivateKeyViewController.m; path = ViewControllers/SHPrivateKeyViewController.m; sourceTree = "<group>"; };
+		3659F170189E1B0000638CAE /* SHEditKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHEditKeyViewController.h; path = ViewControllers/SHEditKeyViewController.h; sourceTree = "<group>"; };
+		3659F171189E1B0000638CAE /* SHEditKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHEditKeyViewController.m; path = ViewControllers/SHEditKeyViewController.m; sourceTree = "<group>"; };
+		366601DB1888AD1300A755FC /* SHShowBranchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHShowBranchViewController.h; path = ViewControllers/SHShowBranchViewController.h; sourceTree = "<group>"; };
+		366601DC1888AD1300A755FC /* SHShowBranchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHShowBranchViewController.m; path = ViewControllers/SHShowBranchViewController.m; sourceTree = "<group>"; };
+		367066DC189F099D009D1807 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		36878599186D02CA00128317 /* ObjectiveGitFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveGitFramework.xcodeproj; path = "objective-git/ObjectiveGitFramework.xcodeproj"; sourceTree = "<group>"; };
+		368785B0186D032F00128317 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		368785B2186D033D00128317 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		368785C2186D194900128317 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		368785C5186D2AD600128317 /* SHCloneRepoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHCloneRepoViewController.h; path = ViewControllers/SHCloneRepoViewController.h; sourceTree = "<group>"; };
+		368785C6186D2AD600128317 /* SHCloneRepoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHCloneRepoViewController.m; path = ViewControllers/SHCloneRepoViewController.m; sourceTree = "<group>"; };
+		368785C8186D3F4500128317 /* SHRepoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHRepoListViewController.h; path = ViewControllers/SHRepoListViewController.h; sourceTree = "<group>"; };
+		368785C9186D3F4500128317 /* SHRepoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHRepoListViewController.m; path = ViewControllers/SHRepoListViewController.m; sourceTree = "<group>"; };
+		368785D9186D4A1700128317 /* Sgit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sgit.xcdatamodel; sourceTree = "<group>"; };
+		368785DC186D4B8F00128317 /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Repo.h; path = Model/Repo.h; sourceTree = "<group>"; };
+		368785DD186D4B8F00128317 /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Repo.m; path = Model/Repo.m; sourceTree = "<group>"; };
+		368785DF186D63FC00128317 /* SHRepoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHRepoListCell.h; path = ViewControllers/SHRepoListCell.h; sourceTree = "<group>"; };
+		368785E0186D63FD00128317 /* SHRepoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHRepoListCell.m; path = ViewControllers/SHRepoListCell.m; sourceTree = "<group>"; };
+		36C444FE1877A6D000C559A1 /* SHCommitChangesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHCommitChangesViewController.h; path = ViewControllers/SHCommitChangesViewController.h; sourceTree = "<group>"; };
+		36C444FF1877A6D000C559A1 /* SHCommitChangesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHCommitChangesViewController.m; path = ViewControllers/SHCommitChangesViewController.m; sourceTree = "<group>"; };
+		36F3C10C186E910700C98545 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		36F3C1301870EBC000C98545 /* SHRepoListLoadingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHRepoListLoadingCell.h; path = ViewControllers/SHRepoListLoadingCell.h; sourceTree = "<group>"; };
+		36F3C1311870EBC000C98545 /* SHRepoListLoadingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHRepoListLoadingCell.m; path = ViewControllers/SHRepoListLoadingCell.m; sourceTree = "<group>"; };
+		36F3C16218721F1900C98545 /* SHRepoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHRepoDetailsViewController.h; path = ViewControllers/SHRepoDetailsViewController.h; sourceTree = "<group>"; };
+		36F3C16318721F1900C98545 /* SHRepoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHRepoDetailsViewController.m; path = ViewControllers/SHRepoDetailsViewController.m; sourceTree = "<group>"; };
+		36F3C16F1872443900C98545 /* SHFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHFilesViewController.h; path = ViewControllers/SHFilesViewController.h; sourceTree = "<group>"; };
+		36F3C1701872443900C98545 /* SHFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHFilesViewController.m; path = ViewControllers/SHFilesViewController.m; sourceTree = "<group>"; };
+		36F3C17A18725B1B00C98545 /* SHViewFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHViewFileViewController.h; path = ViewControllers/SHViewFileViewController.h; sourceTree = "<group>"; };
+		36F3C17B18725B1B00C98545 /* SHViewFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHViewFileViewController.m; path = ViewControllers/SHViewFileViewController.m; sourceTree = "<group>"; };
+		36F3C17E1872656300C98545 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		36F3C1811872806300C98545 /* SHCodeGuesser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHCodeGuesser.h; path = Utils/SHCodeGuesser.h; sourceTree = "<group>"; };
+		36F3C1821872806300C98545 /* SHCodeGuesser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHCodeGuesser.m; path = Utils/SHCodeGuesser.m; sourceTree = "<group>"; };
+		36F62081187548E900DFB884 /* SHRepoCommitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHRepoCommitCell.h; path = ViewControllers/SHRepoCommitCell.h; sourceTree = "<group>"; };
+		36F62082187548E900DFB884 /* SHRepoCommitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHRepoCommitCell.m; path = ViewControllers/SHRepoCommitCell.m; sourceTree = "<group>"; };
+		36F6208B18755A2B00DFB884 /* SHBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHBasic.h; path = Utils/SHBasic.h; sourceTree = "<group>"; };
+		36F6208C18755A2B00DFB884 /* SHBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHBasic.m; path = Utils/SHBasic.m; sourceTree = "<group>"; };
+		36F620921875633A00DFB884 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		36F620951875660D00DFB884 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		36F620961875660D00DFB884 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		36F620971875660D00DFB884 /* NSData+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GIF.h"; sourceTree = "<group>"; };
+		36F620981875660D00DFB884 /* NSData+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GIF.m"; sourceTree = "<group>"; };
+		36F620991875660D00DFB884 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		36F6209A1875660D00DFB884 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		36F6209B1875660D00DFB884 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		36F6209C1875660D00DFB884 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		36F6209D1875660D00DFB884 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		36F6209E1875660D00DFB884 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		36F6209F1875660D00DFB884 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		36F620A01875660D00DFB884 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		36F620A11875660D00DFB884 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		36F620A21875660D00DFB884 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		36F620A31875660D00DFB884 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		36F620A41875660D00DFB884 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		36F620A51875660D00DFB884 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		36F620A61875660D00DFB884 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		36F620A71875660D00DFB884 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		36F620A81875660D00DFB884 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		36F620A91875660D00DFB884 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		36F620AA1875660D00DFB884 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		36F620AB1875660D00DFB884 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		36F620AC1875660D00DFB884 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		36F620AD1875660D00DFB884 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		36F620AE1875660D00DFB884 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		36F620AF1875660D00DFB884 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		36F620B01875660D00DFB884 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		36F620B11875660D00DFB884 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		906C8FB9E1D54C1CAF252522 /* libPods-SGit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SGit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		364C1A08186CF5D0001386FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367066DD189F099D009D1807 /* Security.framework in Frameworks */,
+				36F620931875633A00DFB884 /* ImageIO.framework in Frameworks */,
+				36F3C115186E912A00C98545 /* libObjectiveGit-iOS.a in Frameworks */,
+				36F3C10D186E910700C98545 /* CoreData.framework in Frameworks */,
+				368785B3186D033D00128317 /* libiconv.dylib in Frameworks */,
+				368785B1186D032F00128317 /* libz.dylib in Frameworks */,
+				364C1A11186CF5D0001386FD /* CoreGraphics.framework in Frameworks */,
+				364C1A13186CF5D0001386FD /* UIKit.framework in Frameworks */,
+				364C1A0F186CF5D0001386FD /* Foundation.framework in Frameworks */,
+				0FB51371ECFD4F89B36E0956 /* libPods-SGit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364C1A2C186CF5D1001386FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364C1A31186CF5D1001386FD /* XCTest.framework in Frameworks */,
+				364C1A33186CF5D1001386FD /* UIKit.framework in Frameworks */,
+				364C1A32186CF5D1001386FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		364C1A02186CF5D0001386FD = {
+			isa = PBXGroup;
+			children = (
+				36878599186D02CA00128317 /* ObjectiveGitFramework.xcodeproj */,
+				364C1A14186CF5D0001386FD /* SGit */,
+				364C1A36186CF5D1001386FD /* SGitTests */,
+				364C1A0D186CF5D0001386FD /* Frameworks */,
+				364C1A0C186CF5D0001386FD /* Products */,
+				153E52A11E71468FA0781EB4 /* Pods-SGit.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		364C1A0C186CF5D0001386FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				364C1A0B186CF5D0001386FD /* SGit.app */,
+				364C1A2F186CF5D1001386FD /* SGitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		364C1A0D186CF5D0001386FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				367066DC189F099D009D1807 /* Security.framework */,
+				36F620921875633A00DFB884 /* ImageIO.framework */,
+				36F3C10C186E910700C98545 /* CoreData.framework */,
+				368785B2186D033D00128317 /* libiconv.dylib */,
+				368785B0186D032F00128317 /* libz.dylib */,
+				364C1A0E186CF5D0001386FD /* Foundation.framework */,
+				364C1A10186CF5D0001386FD /* CoreGraphics.framework */,
+				364C1A12186CF5D0001386FD /* UIKit.framework */,
+				364C1A30186CF5D1001386FD /* XCTest.framework */,
+				906C8FB9E1D54C1CAF252522 /* libPods-SGit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		364C1A14186CF5D0001386FD /* SGit */ = {
+			isa = PBXGroup;
+			children = (
+				36CA83921898668A00783F33 /* Otherlibs */,
+				36F3C1801872804200C98545 /* Utils */,
+				36F3C17E1872656300C98545 /* assets */,
+				368785DB186D4A2100128317 /* Model */,
+				368785B4186D04D300128317 /* ViewControllers */,
+				368785C2186D194900128317 /* Images.xcassets */,
+				364C1A23186CF5D0001386FD /* Main_iPad.storyboard */,
+				364C1A20186CF5D0001386FD /* Main_iPhone.storyboard */,
+				364C1A15186CF5D0001386FD /* Supporting Files */,
+			);
+			path = SGit;
+			sourceTree = "<group>";
+		};
+		364C1A15186CF5D0001386FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				364C1A1D186CF5D0001386FD /* SHAppDelegate.h */,
+				364C1A1E186CF5D0001386FD /* SHAppDelegate.m */,
+				364C1A16186CF5D0001386FD /* SGit-Info.plist */,
+				364C1A17186CF5D0001386FD /* InfoPlist.strings */,
+				364C1A1A186CF5D0001386FD /* main.m */,
+				364C1A1C186CF5D0001386FD /* SGit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		364C1A36186CF5D1001386FD /* SGitTests */ = {
+			isa = PBXGroup;
+			children = (
+				364C1A3C186CF5D1001386FD /* SGitTests.m */,
+				364C1A37186CF5D1001386FD /* Supporting Files */,
+			);
+			path = SGitTests;
+			sourceTree = "<group>";
+		};
+		364C1A37186CF5D1001386FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				364C1A38186CF5D1001386FD /* SGitTests-Info.plist */,
+				364C1A39186CF5D1001386FD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3687859A186D02CA00128317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368785A7186D02CC00128317 /* ObjectiveGit.framework */,
+				368785A9186D02CC00128317 /* ObjectiveGitTests.octest */,
+				368785AB186D02CC00128317 /* libObjectiveGit-iOS.a */,
+				368785AD186D02CC00128317 /* libObjectiveGit-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368785B4186D04D300128317 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				36C444F61877A69700C559A1 /* Modals */,
+				36F3C1791872447700C98545 /* Cells */,
+				368785C8186D3F4500128317 /* SHRepoListViewController.h */,
+				368785C9186D3F4500128317 /* SHRepoListViewController.m */,
+				36F3C16218721F1900C98545 /* SHRepoDetailsViewController.h */,
+				36F3C16318721F1900C98545 /* SHRepoDetailsViewController.m */,
+				36F3C16F1872443900C98545 /* SHFilesViewController.h */,
+				36F3C1701872443900C98545 /* SHFilesViewController.m */,
+				36F3C17A18725B1B00C98545 /* SHViewFileViewController.h */,
+				36F3C17B18725B1B00C98545 /* SHViewFileViewController.m */,
+				3621F5511875089B007CA582 /* SHCommitsViewController.h */,
+				3621F5521875089B007CA582 /* SHCommitsViewController.m */,
+				36328988189DA0460030685D /* SHStatusViewController.h */,
+				36328989189DA0460030685D /* SHStatusViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		368785DB186D4A2100128317 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				368785D8186D4A1700128317 /* Sgit.xcdatamodeld */,
+				368785DC186D4B8F00128317 /* Repo.h */,
+				368785DD186D4B8F00128317 /* Repo.m */,
+				3621F5481874FDBA007CA582 /* Commit.h */,
+				3621F5491874FDBA007CA582 /* Commit.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		36C444F61877A69700C559A1 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				3659F166189E032C00638CAE /* SHPrivateKeyViewController.h */,
+				3659F167189E032C00638CAE /* SHPrivateKeyViewController.m */,
+				366601DB1888AD1300A755FC /* SHShowBranchViewController.h */,
+				366601DC1888AD1300A755FC /* SHShowBranchViewController.m */,
+				368785C5186D2AD600128317 /* SHCloneRepoViewController.h */,
+				368785C6186D2AD600128317 /* SHCloneRepoViewController.m */,
+				363328A418768F4F00749247 /* SHAddRemoteViewController.h */,
+				363328A518768F4F00749247 /* SHAddRemoteViewController.m */,
+				36C444FE1877A6D000C559A1 /* SHCommitChangesViewController.h */,
+				36C444FF1877A6D000C559A1 /* SHCommitChangesViewController.m */,
+				3659F170189E1B0000638CAE /* SHEditKeyViewController.h */,
+				3659F171189E1B0000638CAE /* SHEditKeyViewController.m */,
+			);
+			name = Modals;
+			sourceTree = "<group>";
+		};
+		36CA83921898668A00783F33 /* Otherlibs */ = {
+			isa = PBXGroup;
+			children = (
+				36F620941875660D00DFB884 /* SDWebImage */,
+			);
+			name = Otherlibs;
+			sourceTree = "<group>";
+		};
+		36F3C1791872447700C98545 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				368785DF186D63FC00128317 /* SHRepoListCell.h */,
+				368785E0186D63FD00128317 /* SHRepoListCell.m */,
+				36F3C1301870EBC000C98545 /* SHRepoListLoadingCell.h */,
+				36F3C1311870EBC000C98545 /* SHRepoListLoadingCell.m */,
+				36F62081187548E900DFB884 /* SHRepoCommitCell.h */,
+				36F62082187548E900DFB884 /* SHRepoCommitCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		36F3C1801872804200C98545 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				36F3C1811872806300C98545 /* SHCodeGuesser.h */,
+				36F3C1821872806300C98545 /* SHCodeGuesser.m */,
+				36F6208B18755A2B00DFB884 /* SHBasic.h */,
+				36F6208C18755A2B00DFB884 /* SHBasic.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		36F620941875660D00DFB884 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				36F620951875660D00DFB884 /* MKAnnotationView+WebCache.h */,
+				36F620961875660D00DFB884 /* MKAnnotationView+WebCache.m */,
+				36F620971875660D00DFB884 /* NSData+GIF.h */,
+				36F620981875660D00DFB884 /* NSData+GIF.m */,
+				36F620991875660D00DFB884 /* SDImageCache.h */,
+				36F6209A1875660D00DFB884 /* SDImageCache.m */,
+				36F6209B1875660D00DFB884 /* SDWebImageCompat.h */,
+				36F6209C1875660D00DFB884 /* SDWebImageCompat.m */,
+				36F6209D1875660D00DFB884 /* SDWebImageDecoder.h */,
+				36F6209E1875660D00DFB884 /* SDWebImageDecoder.m */,
+				36F6209F1875660D00DFB884 /* SDWebImageDownloader.h */,
+				36F620A01875660D00DFB884 /* SDWebImageDownloader.m */,
+				36F620A11875660D00DFB884 /* SDWebImageDownloaderOperation.h */,
+				36F620A21875660D00DFB884 /* SDWebImageDownloaderOperation.m */,
+				36F620A31875660D00DFB884 /* SDWebImageManager.h */,
+				36F620A41875660D00DFB884 /* SDWebImageManager.m */,
+				36F620A51875660D00DFB884 /* SDWebImageOperation.h */,
+				36F620A61875660D00DFB884 /* SDWebImagePrefetcher.h */,
+				36F620A71875660D00DFB884 /* SDWebImagePrefetcher.m */,
+				36F620A81875660D00DFB884 /* UIButton+WebCache.h */,
+				36F620A91875660D00DFB884 /* UIButton+WebCache.m */,
+				36F620AA1875660D00DFB884 /* UIImage+GIF.h */,
+				36F620AB1875660D00DFB884 /* UIImage+GIF.m */,
+				36F620AC1875660D00DFB884 /* UIImage+MultiFormat.h */,
+				36F620AD1875660D00DFB884 /* UIImage+MultiFormat.m */,
+				36F620AE1875660D00DFB884 /* UIImage+WebP.h */,
+				36F620AF1875660D00DFB884 /* UIImage+WebP.m */,
+				36F620B01875660D00DFB884 /* UIImageView+WebCache.h */,
+				36F620B11875660D00DFB884 /* UIImageView+WebCache.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		364C1A0A186CF5D0001386FD /* SGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364C1A40186CF5D1001386FD /* Build configuration list for PBXNativeTarget "SGit" */;
+			buildPhases = (
+				B1ECE5567B3F4279BF1234F8 /* Check Pods Manifest.lock */,
+				364C1A07186CF5D0001386FD /* Sources */,
+				364C1A08186CF5D0001386FD /* Frameworks */,
+				364C1A09186CF5D0001386FD /* Resources */,
+				7BF2FC1906334830BAF31D90 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368785AF186D031500128317 /* PBXTargetDependency */,
+			);
+			name = SGit;
+			productName = SGit;
+			productReference = 364C1A0B186CF5D0001386FD /* SGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		364C1A2E186CF5D1001386FD /* SGitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364C1A43186CF5D1001386FD /* Build configuration list for PBXNativeTarget "SGitTests" */;
+			buildPhases = (
+				364C1A2B186CF5D1001386FD /* Sources */,
+				364C1A2C186CF5D1001386FD /* Frameworks */,
+				364C1A2D186CF5D1001386FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364C1A35186CF5D1001386FD /* PBXTargetDependency */,
+			);
+			name = SGitTests;
+			productName = SGitTests;
+			productReference = 364C1A2F186CF5D1001386FD /* SGitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		364C1A03186CF5D0001386FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SH;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rizhen Zhang";
+				TargetAttributes = {
+					364C1A0A186CF5D0001386FD = {
+						DevelopmentTeam = MW2NZ957VT;
+					};
+					364C1A2E186CF5D1001386FD = {
+						TestTargetID = 364C1A0A186CF5D0001386FD;
+					};
+				};
+			};
+			buildConfigurationList = 364C1A06186CF5D0001386FD /* Build configuration list for PBXProject "SGit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 364C1A02186CF5D0001386FD;
+			productRefGroup = 364C1A0C186CF5D0001386FD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3687859A186D02CA00128317 /* Products */;
+					ProjectRef = 36878599186D02CA00128317 /* ObjectiveGitFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				364C1A0A186CF5D0001386FD /* SGit */,
+				364C1A2E186CF5D1001386FD /* SGitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		368785A7186D02CC00128317 /* ObjectiveGit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectiveGit.framework;
+			remoteRef = 368785A6186D02CC00128317 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		368785A9186D02CC00128317 /* ObjectiveGitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ObjectiveGitTests.octest;
+			remoteRef = 368785A8186D02CC00128317 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		368785AB186D02CC00128317 /* libObjectiveGit-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libObjectiveGit-iOS.a";
+			remoteRef = 368785AA186D02CC00128317 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		368785AD186D02CC00128317 /* libObjectiveGit-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libObjectiveGit-iOS.a";
+			remoteRef = 368785AC186D02CC00128317 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		364C1A09186CF5D0001386FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F3C17F1872656400C98545 /* assets in Resources */,
+				364C1A25186CF5D0001386FD /* Main_iPad.storyboard in Resources */,
+				368785C3186D194900128317 /* Images.xcassets in Resources */,
+				364C1A22186CF5D0001386FD /* Main_iPhone.storyboard in Resources */,
+				364C1A19186CF5D0001386FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364C1A2D186CF5D1001386FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364C1A3B186CF5D1001386FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BF2FC1906334830BAF31D90 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SGit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1ECE5567B3F4279BF1234F8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		364C1A07186CF5D0001386FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F620BC1875660D00DFB884 /* UIImage+GIF.m in Sources */,
+				3621F5531875089B007CA582 /* SHCommitsViewController.m in Sources */,
+				36F620BF1875660D00DFB884 /* UIImageView+WebCache.m in Sources */,
+				36F6208D18755A2B00DFB884 /* SHBasic.m in Sources */,
+				368785E1186D63FD00128317 /* SHRepoListCell.m in Sources */,
+				36F3C1711872443900C98545 /* SHFilesViewController.m in Sources */,
+				36F620BE1875660D00DFB884 /* UIImage+WebP.m in Sources */,
+				3621F54A1874FDBA007CA582 /* Commit.m in Sources */,
+				36F3C1831872806300C98545 /* SHCodeGuesser.m in Sources */,
+				3632898A189DA0460030685D /* SHStatusViewController.m in Sources */,
+				36F3C17C18725B1B00C98545 /* SHViewFileViewController.m in Sources */,
+				36F620B61875660D00DFB884 /* SDWebImageDecoder.m in Sources */,
+				364C1A1B186CF5D0001386FD /* main.m in Sources */,
+				36F620BB1875660D00DFB884 /* UIButton+WebCache.m in Sources */,
+				36F620B91875660D00DFB884 /* SDWebImageManager.m in Sources */,
+				36F62083187548E900DFB884 /* SHRepoCommitCell.m in Sources */,
+				368785CA186D3F4500128317 /* SHRepoListViewController.m in Sources */,
+				364C1A1F186CF5D0001386FD /* SHAppDelegate.m in Sources */,
+				368785DE186D4B8F00128317 /* Repo.m in Sources */,
+				36F3C1321870EBC000C98545 /* SHRepoListLoadingCell.m in Sources */,
+				36F620B71875660D00DFB884 /* SDWebImageDownloader.m in Sources */,
+				363328A618768F4F00749247 /* SHAddRemoteViewController.m in Sources */,
+				36F620BA1875660D00DFB884 /* SDWebImagePrefetcher.m in Sources */,
+				36C445001877A6D000C559A1 /* SHCommitChangesViewController.m in Sources */,
+				36F620B31875660D00DFB884 /* NSData+GIF.m in Sources */,
+				36F620B41875660D00DFB884 /* SDImageCache.m in Sources */,
+				36F620B81875660D00DFB884 /* SDWebImageDownloaderOperation.m in Sources */,
+				36F3C16418721F1900C98545 /* SHRepoDetailsViewController.m in Sources */,
+				36F620B21875660D00DFB884 /* MKAnnotationView+WebCache.m in Sources */,
+				3659F172189E1B0000638CAE /* SHEditKeyViewController.m in Sources */,
+				36F620BD1875660D00DFB884 /* UIImage+MultiFormat.m in Sources */,
+				36F620B51875660D00DFB884 /* SDWebImageCompat.m in Sources */,
+				366601DD1888AD1300A755FC /* SHShowBranchViewController.m in Sources */,
+				368785DA186D4A1700128317 /* Sgit.xcdatamodeld in Sources */,
+				3659F168189E032C00638CAE /* SHPrivateKeyViewController.m in Sources */,
+				368785C7186D2AD600128317 /* SHCloneRepoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364C1A2B186CF5D1001386FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364C1A3D186CF5D1001386FD /* SGitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		364C1A35186CF5D1001386FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364C1A0A186CF5D0001386FD /* SGit */;
+			targetProxy = 364C1A34186CF5D1001386FD /* PBXContainerItemProxy */;
+		};
+		368785AF186D031500128317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ObjectiveGit-iOS-arm64";
+			targetProxy = 368785AE186D031500128317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		364C1A17186CF5D0001386FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364C1A18186CF5D0001386FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		364C1A20186CF5D0001386FD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364C1A21186CF5D0001386FD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		364C1A23186CF5D0001386FD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364C1A24186CF5D0001386FD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		364C1A39186CF5D1001386FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364C1A3A186CF5D1001386FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		364C1A3E186CF5D1001386FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		364C1A3F186CF5D1001386FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		364C1A41186CF5D1001386FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153E52A11E71468FA0781EB4 /* Pods-SGit.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sheimi/Desktop,
+					"/Users/sheimi/Developer/workspaces/XCode-Workspace/SGit",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGit/SGit-Prefix.pch";
+				INFOPLIST_FILE = "SGit/SGit-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include $(PROJECT_DIR)/objective-git/External/libgit2/include";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		364C1A42186CF5D1001386FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153E52A11E71468FA0781EB4 /* Pods-SGit.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sheimi/Desktop,
+					"/Users/sheimi/Developer/workspaces/XCode-Workspace/SGit",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGit/SGit-Prefix.pch";
+				INFOPLIST_FILE = "SGit/SGit-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include $(PROJECT_DIR)/objective-git/External/libgit2/include";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		364C1A44186CF5D1001386FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SGit.app/SGit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGit/SGit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SGitTests/SGitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		364C1A45186CF5D1001386FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SGit.app/SGit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SGit/SGit-Prefix.pch";
+				INFOPLIST_FILE = "SGitTests/SGitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		364C1A06186CF5D0001386FD /* Build configuration list for PBXProject "SGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364C1A3E186CF5D1001386FD /* Debug */,
+				364C1A3F186CF5D1001386FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364C1A40186CF5D1001386FD /* Build configuration list for PBXNativeTarget "SGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364C1A41186CF5D1001386FD /* Debug */,
+				364C1A42186CF5D1001386FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364C1A43186CF5D1001386FD /* Build configuration list for PBXNativeTarget "SGitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364C1A44186CF5D1001386FD /* Debug */,
+				364C1A45186CF5D1001386FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		368785D8186D4A1700128317 /* Sgit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				368785D9186D4A1700128317 /* Sgit.xcdatamodel */,
+			);
+			currentVersion = 368785D9186D4A1700128317 /* Sgit.xcdatamodel */;
+			name = Sgit.xcdatamodeld;
+			path = Model/Sgit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 364C1A03186CF5D0001386FD /* Project object */;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B3116" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Repo" representedClassName="Repo" syncable="YES">
+        <attribute name="last_commit_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_commit_msg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_commiter_email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_committer_uname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="local_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remote_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repo_status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Repo" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

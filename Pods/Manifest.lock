@@ -1,0 +1,10 @@
+PODS:
+  - MSCMoreOptionTableViewCell (1.1)
+
+DEPENDENCIES:
+  - MSCMoreOptionTableViewCell
+
+SPEC CHECKSUMS:
+  MSCMoreOptionTableViewCell: ac1dd0c62ca6308b139f191b0e1cef35c9de3a2f
+
+COCOAPODS: 0.29.0
